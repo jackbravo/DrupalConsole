@@ -22,6 +22,9 @@ application:
         download:
           aliases:
             - md
+        install:
+          aliases:
+            - mi
       config:
         debug:
           aliases:
