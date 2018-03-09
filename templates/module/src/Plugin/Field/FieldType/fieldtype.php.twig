@@ -95,7 +95,7 @@ class {{ class_name }} extends FieldItemBase {% endblock %}
             'max' => $max_length,
             'maxMessage' => t('%name: may not be longer than @max characters.', [
               '%name' => $this->getFieldDefinition()->getLabel(),
-              '@max' => $max_length
+              '@max' => $max_length,
             ]),
           ],
         ],
